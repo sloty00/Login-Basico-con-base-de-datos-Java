@@ -1,8 +1,3 @@
-Perfecto. He eliminado el guion del inicio de name y he consolidado la estructura para que los proyectos Java funcionen de forma estable (sin errores de tests fallidos) y los otros proyectos mantengan su automatización.
-
-Aquí tienes el archivo ci-report.yml definitivo, compatible con GitHub Actions y limpio:
-
-YAML
 name: Java CI and Monitor Report
 
 on:
