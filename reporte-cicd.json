@@ -1,0 +1,18 @@
+{
+  "proyecto": "Login-Basico-con-base-de-datos-Java",
+  "rama": "main",
+  "commit": "cf47b9688e81a4793095787305d0b050113bbf13",
+  "pipeline": {
+    "estado": "SUCCESS",
+    "entorno": "PROD",
+    "duracion_segundos": 45,
+    "fecha_ejecucion": "2026-06-04T19:47:12Z",
+    "historial": ["SUCCESS", "SUCCESS", "SUCCESS", "SUCCESS", "SUCCESS"]
+  },
+  "tests": {
+    "exitosos": 1,
+    "fallidos": 0,
+    "cobertura_codigo": "100%"
+  },
+  "detalles": "Build completado exitosamente desde GitHub Actions."
+}
