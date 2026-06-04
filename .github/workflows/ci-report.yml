@@ -21,7 +21,9 @@ jobs:
         cache: 'maven'
 
     - name: Compilar
-      run: ./mvnw package -DskipTests
+      run: |
+        chmod +x mvnw
+        ./mvnw package -DskipTests
 
     - name: Generar reporte JSON
       run: |
