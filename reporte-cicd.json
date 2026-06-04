@@ -1,18 +1,16 @@
 {
   "proyecto": "Login-Basico-con-base-de-datos-Java",
   "rama": "main",
-  "commit": "c4e97682b4b67a99f758ce3990af424b93838c05",
+  "commit": "bbe8a1e926418becdd542d98972dbf3e309ea9af",
   "pipeline": {
-    "estado": "SUCCESS",
+    "estado": "success",
     "entorno": "PROD",
     "duracion_segundos": 45,
-    "fecha_ejecucion": "2026-06-04T19:53:07Z",
-    "historial": ["SUCCESS", "SUCCESS", "SUCCESS", "SUCCESS", "SUCCESS"]
+    "fecha_ejecucion": "2026-06-04T20:16:45Z"
   },
   "tests": {
-    "exitosos": 1,
-    "fallidos": 0,
-    "cobertura_codigo": "100%"
+    "estado": "Verificado en CI",
+    "resultado": "success"
   },
-  "detalles": "Build completado con éxito usando Java 21 de forma integrada."
+  "detalles": "Pipeline ejecutado automáticamente. Estado final: success"
 }
