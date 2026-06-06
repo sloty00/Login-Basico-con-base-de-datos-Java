@@ -25,6 +25,9 @@ jobs:
         chmod +x mvnw
         # Usamos -DskipTests=true para evitar fallos de conexión a BD en el CI
         ./mvnw clean package -DskipTests=true
+        ./mvnw versions:display-dependency-updates -DoutputFile=outdated.txt || true
+        COUNT=$(grep "->" outdated.txt | wc -l)
+        echo "DEPS=$COUNT" >> $GITHUB_ENV
 
     - name: Generar reporte JSON
       if: always()
@@ -43,6 +46,9 @@ jobs:
             "exitosos": 1,
             "fallidos": 0,
             "cobertura_codigo": "100%"
+          },
+          "metricas": {
+            "dependencias_desactualizadas": '${{ env.DEPS }}'
           },
           "detalles": "Pipeline ejecutado. Tests omitidos por entorno CI."
         }' > reporte-cicd.json
