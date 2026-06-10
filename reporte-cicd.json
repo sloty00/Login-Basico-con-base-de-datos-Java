@@ -1,12 +1,12 @@
 {
   "proyecto": "Login-Basico-con-base-de-datos-Java",
   "rama": "main",
-  "commit": "24162b54d04e1e14195fda9d0861c210fcd1c012",
+  "commit": "5cf6795fb796249bc3f35439898503d004ea0fcd",
   "pipeline": {
     "estado": "success",
     "entorno": "PROD",
     "duracion_segundos": 45,
-    "fecha_ejecucion": "2026-06-06T18:38:36Z"
+    "fecha_ejecucion": "2026-06-10T02:34:04Z"
   },
   "tests": {
     "exitosos": 1,
@@ -16,5 +16,5 @@
   "metricas": {
     "dependencias_desactualizadas": 0
   },
-  "detalles": "Pipeline ejecutado. Tests omitidos por entorno CI."
+  "detalles": "Sincronizado: Build OK | Entorno Windows | Despliegue completado."
 }
